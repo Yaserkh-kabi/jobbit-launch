@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.b0ce6992.css",
-    "main.js": "./static/js/main.8fa37bcd.js",
-    "index.html": "./index.html",
-    "main.b0ce6992.css.map": "./static/css/main.b0ce6992.css.map",
-    "main.8fa37bcd.js.map": "./static/js/main.8fa37bcd.js.map"
+    "main.css": "/jobbit-launch/static/css/main.69cdb1fc.css",
+    "main.js": "/jobbit-launch/static/js/main.a88d32d5.js",
+    "index.html": "/jobbit-launch/index.html",
+    "main.69cdb1fc.css.map": "/jobbit-launch/static/css/main.69cdb1fc.css.map",
+    "main.a88d32d5.js.map": "/jobbit-launch/static/js/main.a88d32d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0ce6992.css",
-    "static/js/main.8fa37bcd.js"
+    "static/css/main.69cdb1fc.css",
+    "static/js/main.a88d32d5.js"
   ]
 }
