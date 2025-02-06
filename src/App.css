@@ -1,9 +1,7 @@
 body {
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
   min-height: 100vh;
   margin: 0;
+  background-color: black;
 }
 
 .full-page {
@@ -15,23 +13,12 @@ body {
   object-fit: cover
 }
 
-/* @keyframes effect {
-  0%   {opacity: 0.3;}
-  50%   {opacity: 0.3;}
-  100%   {opacity: 0.3;}
-} */
-
 .animated-vid {
-  opacity: 0; /* Start as invisible */
-  animation: fadeIn 3s ease-in-out forwards; /* Apply the fade-in effect */
+  opacity: 0;
+  animation: fadeIn 3s ease-in-out forwards;
 }
 
-/* Define the keyframe animation */
 @keyframes fadeIn {
-  0% {
-    opacity: 0; /* Start as invisible */
-  }
-  100% {
-    opacity: 1; /* End as fully visible */
-  }
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
