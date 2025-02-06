@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jobbit-launch/static/css/main.b0ce6992.css",
+    "main.js": "/jobbit-launch/static/js/main.83d8b83d.js",
+    "index.html": "/jobbit-launch/index.html",
+    "main.b0ce6992.css.map": "/jobbit-launch/static/css/main.b0ce6992.css.map",
+    "main.83d8b83d.js.map": "/jobbit-launch/static/js/main.83d8b83d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0ce6992.css",
+    "static/js/main.83d8b83d.js"
+  ]
+}
