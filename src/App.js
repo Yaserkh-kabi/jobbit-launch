@@ -24,8 +24,7 @@ function App() {
       >
         <source src="/vid.mp4" type="video/mp4" />
       </video>}
-
-      {launched && <img className="full-page animated-vid" src="./bg-jobbit.png" alt="JOBBIT IS HERE !!!"/>}
+      {launched && <img className="full-page animated-vid" src="./bg-jobbit3.JPG" alt="JOBBIT IS HERE !!!"/>}
     </>
   );
 }
