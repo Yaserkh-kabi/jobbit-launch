@@ -22,9 +22,9 @@ function App() {
         ref={videoRef}
         onClick={playVid}
       >
-        <source src="/vid.mp4" type="video/mp4" />
+        <source src={process.env.PUBLIC_URL + "/vid.mp4"} type="video/mp4" />
       </video>}
-      {launched && <img className="full-page animated-vid" src="./bg-jobbit3.JPG" alt="JOBBIT IS HERE !!!"/>}
+      {launched && <img className="full-page animated-vid" src={process.env.PUBLIC_URL + "/bg-jobbit3.JPG"} alt="JOBBIT IS HERE !!!"/>}
     </>
   );
 }
