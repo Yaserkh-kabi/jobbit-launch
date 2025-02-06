@@ -5,13 +5,15 @@ import Launch from "./components/launch";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/launch" element={<Launch/>} />
-        {/* <Route/> */}
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/launch" element={<Launch/>} />
+          {/* <Route/> */}
+        </Routes>
+      </Router>
+    </>
   );
 }
 
