@@ -1,0 +1,37 @@
+body {
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  min-height: 100vh;
+  margin: 0;
+}
+
+.full-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover
+}
+
+/* @keyframes effect {
+  0%   {opacity: 0.3;}
+  50%   {opacity: 0.3;}
+  100%   {opacity: 0.3;}
+} */
+
+.animated-vid {
+  opacity: 0; /* Start as invisible */
+  animation: fadeIn 3s ease-in-out forwards; /* Apply the fade-in effect */
+}
+
+/* Define the keyframe animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Start as invisible */
+  }
+  100% {
+    opacity: 1; /* End as fully visible */
+  }
+}
